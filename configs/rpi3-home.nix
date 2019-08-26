@@ -1,3 +1,5 @@
+# $ nixos-generate -f sd-aarch64 -c ./configs/rpi3-home.nix --system aarch64-linux
+# sudo dd if={nix-store-*.img} of=/dev/sdX bs=4M
 { ... }:
 {
   services.openssh.enable = true;
