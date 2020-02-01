@@ -66,7 +66,11 @@ adds ability to select a specific channel version.
 
 example:
 ```
-nix-shell --command './nixos-generate -f iso -I nixpkgs=channel:nixos-19.09'
+nix-shell --command './nixos-generate -f openstack -I nixpkgs=channel:nixos-19.09'
+
+nix-shell --command './nixos-generate -f openstack -I nixpkgs=channel:nixos-20.03'
+
+nix-shell --command './nixos-generate -f virtualbox -I nixpkgs=channel:nixos-20.03'
 ```
 
 ## Using a particular nixpkgs

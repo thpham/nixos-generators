@@ -1,3 +1,7 @@
 *.qcow2
+*.qcow2.gz
+*.ova
+*.crt
+*.pem
 result
 result-*
